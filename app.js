@@ -7,7 +7,7 @@ app.use(express.json());
 const ssss = app.use(cookieParser());
 app.use(cors());
 const errorMiddleware = require("./middleware/error")
-// console.log(ssss, "ffff")
+console.log(ssss, "ffff")
 const user = require("./routes/userRoute");
 const category = require("./routes/CatgoreyRoute")
 const subCategory = require("./routes/subCategoryRoute")
